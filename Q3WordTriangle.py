@@ -5,3 +5,10 @@
 # PYTH
 # PYTHO
 # PYTHON
+
+A = str(input())
+B = len(A)
+
+for value in range(B):
+    print(A[0:value])
+print(A)
